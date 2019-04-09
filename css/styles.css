@@ -1,0 +1,98 @@
+/* Fonts
+----------------------
+font-family: 'Lato', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+/*Color Palette
+-------------------
+Cyan Blue #118AB2
+Black #0A0908
+Tuscany #C4A29E
+Beige #4B3B47
+--------------------- */
+
+/* Global styles
+---------------------- */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0;
+}
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 40px;
+  overflow: auto;
+
+}
+.col-wide{
+  width: 70%;
+  float: left;
+  min-height: 175px;
+  padding-left: 50px;
+}
+.col-narrow{
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+h1, h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 26px;
+  margin-top: 0px;
+}
+a {
+  color: #blue;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Header and Footer Styles
+---------------------- */
+header, footer {
+  background-color: #0A0908;
+  color: #D3D4D9;
+}
+header h1, header h2, footer h2{
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+.profile-img{
+  border-radius: 50%;
+}
+
+.contact-info a {
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Section Work
+---------------------- */
+.work {
+  background-color: #EEF4E9;
+}
+
+/* Section School
+---------------------- */
+.education {
+  background-color: #F4EDE8;
+}
